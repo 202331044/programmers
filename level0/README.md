@@ -8,6 +8,6 @@
 
 | File | Solved | Link |
 |------|--------|------|
-| problem_001_030 | 20 / 30 problems | [View](./problem_001_030.md) |
+| problem_001_030 | 30 / 30 problems | [View](./problem_001_030.md) |
 
 ---
