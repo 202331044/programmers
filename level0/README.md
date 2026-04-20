@@ -1,18 +1,18 @@
 # Level 0 Problems
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 30
 
 ---
 
 ## Problem List
 
-### 1. µÎ ¼öÀÇ °ö ±¸ÇÏ±â (multiply_two_numbers)
+### 1. ë‘ ìˆ˜ì˜ ê³± êµ¬í•˜ê¸° (multiply_two_numbers)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 2. µÎ ¼öÀÇ ³ª´°¼À (divide_two_numbers)
+### 2. ë‘ ìˆ˜ì˜ ë‚˜ëˆ—ì…ˆ (divide_two_numbers)
 
 - Time: N/A
 - Solved by Myself: Yes
@@ -20,42 +20,42 @@
 	- 1st solution: Converted int to double to perform division.
 	- 2nd solution: Multiplied first, then used integer division, so casting to double is not needed.
 	
-### 3. ¼ıÀÚ ºñ±³ÇÏ±â (compare_numbers)
+### 3. ìˆ«ì ë¹„êµí•˜ê¸° (compare_numbers)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 4. ³ª¸ÓÁö ±¸ÇÏ±â (find_remainder)
+### 4. ë‚˜ë¨¸ì§€ êµ¬í•˜ê¸° (find_remainder)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 5. ³ªÀÌ Ãâ·Â (print_age)
+### 5. ë‚˜ì´ ì¶œë ¥ (print_age)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 6. µÎ ¼öÀÇ Â÷ ±¸ÇÏ±â (subtract_two_numbers)
+### 6. ë‘ ìˆ˜ì˜ ì°¨ êµ¬í•˜ê¸° (subtract_two_numbers)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 7. ¸ò ±¸ÇÏ±â (get_quotient)
+### 7. ëª« êµ¬í•˜ê¸° (get_quotient)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 8. ¸Ó¾³ÀÌº¸´Ù Å° Å« »ç¶÷ (taller_than_musseuk)
+### 8. ë¨¸ì“±ì´ë³´ë‹¤ í‚¤ í° ì‚¬ëŒ (taller_than_musseuk)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 9. µÎ ¼öÀÇ ÇÕ ±¸ÇÏ±â (sum_two_numbers)
+### 9. ë‘ ìˆ˜ì˜ í•© êµ¬í•˜ê¸° (sum_two_numbers)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 10. ÇÇÀÚ ³ª´² ¸Ô±â (1) (divide_pizza_1)
+### 10. í”¼ì ë‚˜ëˆ  ë¨¹ê¸° (1) (divide_pizza_1)
 
 - Time: N/A
 - Solved by Myself: Yes
@@ -63,37 +63,37 @@
 	- 1st solution: Used the ternary operator.
 	- 2nd solution: Added (slice - 1) to the number of people, then divided to get the number of pizzas.
 
-### 11. ÇÇÀÚ ³ª´² ¸Ô±â (3) (divide_pizza_3)
+### 11. í”¼ì ë‚˜ëˆ  ë¨¹ê¸° (3) (divide_pizza_3)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 12. ¹è¿­ÀÇ Æò±Õ°ª (array_average)
+### 12. ë°°ì—´ì˜ í‰ê· ê°’ (array_average)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 13. ¾ÆÀÌ½º ¾Æ¸Ş¸®Ä«³ë (iced_americano)
+### 13. ì•„ì´ìŠ¤ ì•„ë©”ë¦¬ì¹´ë…¸ (iced_americano)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 14. ¹è¿­ µÚÁı±â (reverse_array)
+### 14. ë°°ì—´ ë’¤ì§‘ê¸° (reverse_array)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 15. µÚÁıÈù ¹®ÀÚ¿­ (reversed_string)
+### 15. ë’¤ì§‘íŒ ë¬¸ìì—´ (reversed_string)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 16. Â¦¼ö È¦¼ö °³¼ö (even_odd_count)
+### 16. ì§ìˆ˜ í™€ìˆ˜ ê°œìˆ˜ (even_odd_count)
 
 - Time: N/A
 - Solved by Myself: Yes
 
-### 17. ¹®ÀÚ ¹İº¹ Ãâ·ÂÇÏ±â (print_repeat_char)
+### 17. ë¬¸ì ë°˜ë³µ ì¶œë ¥í•˜ê¸° (print_repeat_char)
 
 - Time: N/A
 - Solved by Myself: Yes
@@ -101,7 +101,7 @@
 	- 1st solution: Used a for loop to build a repeated string.
 	- 2nd solution: Used `string::append(n, c)`, where n is the number of repetitions and c is a character.
 
-### 18. Æ¯Á¤ ¹®ÀÚ Á¦°ÅÇÏ±â (remove_specific_char)
+### 18. íŠ¹ì • ë¬¸ì ì œê±°í•˜ê¸° (remove_specific_char)
 
 - Time: N/A
 - Solved by Myself: Yes
@@ -109,13 +109,68 @@
 	- 1st solution: Used `string::find` to locate specific characters and `string::erase` to remove them.
 	- 2nd solution: Built a new string excluding specific characters.
 
-### 19. °¢µµ±â (protractor)
+### 19. ê°ë„ê¸° (protractor)
 
 - Time: N/A
 - Solved by Myself: Yes
 
+### 20. ì–‘ê¼¬ì¹˜ (lamb_skewers)
 
-### 20. ¾ç²¿Ä¡ (lamb_skewers)
+- Time: N/A
+- Solved by Myself: Yes
+
+### 21. ì§ìˆ˜ì˜ í•© (sum_of_even)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+  - 1st solution: Used a for loop with a condition to filter even numbers.
+  - 2nd solution: Used the arithmetic sequence formula to calculate the sum of even numbers.
+
+### 22. ë°°ì—´ ìë¥´ê¸° (slice_array)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 23. ìˆœì„œìŒì˜ ê°œìˆ˜ (ordered_pairs_count)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 24. ì ì˜ ìœ„ì¹˜ êµ¬í•˜ê¸° (find_point_quadrant)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 25. ìµœëŒ“ê°’ ë§Œë“¤ê¸°(1) (make_maximum_value_1)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 26. ëª¨ìŒ ì œê±° (remove_vowels)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+  - 1st solution: Used a for loop with `std::remove` and `std::vector::erase` to remove vowels.
+  - 2nd solution: Used `std::remove_if` with a custom predicate to filter out vowels.
+
+### 27. ìˆ¨ì–´ìˆëŠ” ìˆ«ìì˜ ë§ì…ˆ (1) (sum_of_hidden_numbers_1)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 28. ë°°ì—´ ì›ì†Œì˜ ê¸¸ì´ (string_lengths)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 29. ì‚¼ê°í˜•ì˜ ì™„ì„±ì¡°ê±´ (1) (triangle_condition_1)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 30. ëŒ€ë¬¸ìì™€ ì†Œë¬¸ì (upper_lower_case)
 
 - Time: N/A
 - Solved by Myself: Yes
