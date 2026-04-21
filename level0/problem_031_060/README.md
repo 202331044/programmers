@@ -1,7 +1,7 @@
 # Level 0 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 10
+- Total Solved: 20
 
 ---
 
@@ -65,5 +65,61 @@
 - Notes:
 	- 1st solution: Used a condition statement to check whether a number is odd.
 	- 2nd solution: Generated odd numbers by incrementing by 2.
+
+### 11. 배열 두 배 만들기 (make_double_array)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+  - 1st solution: Used a for loop to construct the array.
+  - 2nd solution: Used `std::transform` for element-wise transformation.
+
+### 12. 중복된 숫자 개수 (duplicate_count)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 13. 중앙값 구하기 (find_median)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+  - 1st solution: Used `std::sort` to sort the numbers and find the median.
+  - 2nd solution: Used `std::nth_element` to directly obtain the median.
+
+### 14. flag에 따라 다른 값 반환하기 (values_based_on_flag)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 15. 옷가게 할인 받기 (get_clothing_discount)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 16. 직각삼각형 출력하기 (print_right_triangle)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 17. 문자열 곱하기 (multiply_string)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 18. 개미 군단 (ant_army)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 19. 가위 바위 보 (rock_paper_scissors)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 20. 주사위의 개수 (dice_number)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
