@@ -1,7 +1,7 @@
 # Level 0 Problems (091 ~ 120)
 
 ## Summary
-- Total Solved: 5
+- Total Solved: 10
 
 ---
 
@@ -37,5 +37,33 @@
 - Notes:
 	- 1st solution: Iterated through elements to concatenate strings.
 	- 2nd solution: Used `accumulate` to concatenate strings.
+
+### 96. 공배수 (common_multiple)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 97. 5명씩 (pick_every_5)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 98. 홀수 vs 짝수 (odd_vs_even)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 99. 순서 바꾸기 (change_order)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Used `vector::insert` to concatenate two subarrays.
+	- 2nd solution: Used `std::rotate` to rotate the array by n positions.
+
+### 100. 배열 만들기 3 (make_array_3)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
