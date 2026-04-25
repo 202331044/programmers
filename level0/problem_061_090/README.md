@@ -1,7 +1,7 @@
 # Level 0 Problems (061 ~ 090)
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 30
 
 ---
 
@@ -121,5 +121,65 @@
 - Notes:
 	- 1st solution: Used a for loop and `std::isdigit` to split the numbers and operator.
 	- 2nd solution: Used `std::istringstream` to parse the input into numbers and an operator.
+
+### 81. x 사이의 개수 (count_between_x)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 82. 공백으로 구분하기 2 (split_by_space_2)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 83. 공백으로 구분하기 1 (split_by_space_1)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Split string using index tracking and `string::substr()`.
+	- 2nd solution: Iterated characters and built substrings with a temporary string.
+
+### 84. ad 제거하기 (remove_ad)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 85. 특정한 문자를 대문자로 바꾸기 (convert_specific_char_to_upper)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Iterated through the string and applied `toupper` to each character.
+	- 2nd solution: Used `transform` to convert characters to uppercase.
+	- `toupper` and `tolower` return `int`, so casting to `char` is required when using solution 2.
+
+### 86. A 강조하기 (highlight_A)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 87. 배열에서 문자열 대소문자 변환하기 (convert_upper_lower_from_array)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Applied different `transform` operations based on the index.
+	- 2nd solution: Used a conditional inside `transform` to handle both cases.
+
+### 88. 부분 문자열 (substring)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 89. 소문자로 바꾸기 (convert_to_lowercase)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 90. 원하는 문자열 찾기 (find_target_string)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
