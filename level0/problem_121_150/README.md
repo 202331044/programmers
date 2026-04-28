@@ -1,7 +1,7 @@
 # Level 0 Problems (121 ~ 150)
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 20
 
 ---
 
@@ -90,6 +90,31 @@
   - 2nd solution: Used lexicographical comparison of vectors to compare dates directly.
 
 ### 135. 글자 지우기 (remove_chars)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 136. 등차수열의 특정한 항만 더하기 (selective_arithmetic_sum)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 137. 문자열 섞기 (interleave_strings)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 138. 수열과 구간 쿼리 1 (sequence_and_query_1)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 139. 1로 만들기 (make_one)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 140. 합성수 찾기 (find_composite_numbers)
 
 - Time: N/A
 - Solved by Myself: Yes
