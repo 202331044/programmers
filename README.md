@@ -24,11 +24,11 @@ Each folder contains:
 
 ## 📊 Progress
 
-- Total Solved: 141
+- Total Solved: 151
 
 | Folder | Solved | Link |
 |--------|--------|------|
-| level0 | 140 problems | [View](./level0) |
+| level0 | 150 problems | [View](./level0) |
 | level3 | 1 problem | [View](./level3) |
 
 --- 

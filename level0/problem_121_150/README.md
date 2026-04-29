@@ -1,7 +1,7 @@
 # Level 0 Problems (121 ~ 150)
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 30
 
 ---
 
@@ -118,5 +118,62 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 141. 특별한 이차원 배열 2 (special_2d_array_2)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 142. l로 만들기 (convert_to_l)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 143. 특별한 이차원 배열 1 (special_2d_array_1)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 144. 배열 회전시키기 (array_rotation)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 145. 2차원으로 만들기 (convert_to_2d)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 146. 중복된 문자 제거 (remove_duplicate_chars)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 147. 배열의 길이를 2의 거듭제곱으로 만들기 (resize_array_to_power_of_two)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 148. 빈 배열에 추가, 삭제하기 (add_remove_empty_array)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 149. 문자열이 몇 번 등장하는지 세기 (count_str_occurrences)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Used nested loops to compare characters one by one.
+	- 2nd solution: Used `substr` to extract substrings and compare them with the target string.
+
+### 150. 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기 (longest_substring_ending_with)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Extracted substrings starting at each index and compared with the target string.
+	- 2nd solution: Iterated from the end and checked substrings ending with the target string.
+	- 3rd solution: Used `string::rfind` to find the last occurrence of the target string.
 
 ---
