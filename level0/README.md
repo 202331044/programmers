@@ -4,7 +4,7 @@
 
 ## Progress
 
-- Total Solved: 165
+- Total Solved: 180
 
 | File | Solved | Link |
 |------|--------|------|
@@ -13,6 +13,6 @@
 | problem_061_090 | 30 / 30 problems | [View](./problem_061_090/README.md) |
 | problem_091_120 | 30 / 30 problems | [View](./problem_091_120/README.md) |
 | problem_121_150 | 30 / 30 problems | [View](./problem_121_150/README.md) |
-| problem_151_180 | 15 / 30 problems | [View](./problem_151_180/README.md) |
+| problem_151_180 | 30 / 30 problems | [View](./problem_151_180/README.md) |
 
 ---
