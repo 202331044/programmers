@@ -1,7 +1,7 @@
 # Level 0 Problems (181 ~ 210)
 
 ## Summary
-- Total Solved: 12
+- Total Solved: 15
 
 ---
 
@@ -81,5 +81,20 @@
 - Notes:
     - Replaced manual direction control with direction arrays (`dr`, `dc`)
     - Simplified movement and direction switching using index rotation `(dir + 1) % 4`
+
+### 193. 삼각형의 완성조건 (2) (triangle_condition_2)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 194. 영어가 싫어요 (i_hate_english)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 195. 무작위로 K개의 수 뽑기 (select_k_random_numbers)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
