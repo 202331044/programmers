@@ -1,7 +1,7 @@
 # Level 0 Problems (181 ~ 210)
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 25
 
 ---
 
@@ -96,5 +96,62 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 196. [PCCE 기출문제] 2번 / 피타고라스의 정리 (pcce_2_pythagorean_theorem)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Debugging exercise
+
+### 197. 그림 확대 (zoom_picture)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Replaced the nested loop with the string constructor `string(k, ch)` to repeat characters more concisely.
+
+### 198. [PCCE 기출문제] 4번 / 병과분류 (pcce_4_department_classification)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Fill-in-the-blank problem.
+
+### 199. [PCCE 기출문제] 3번 / 나이 계산 (level0)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Fill-in-the-blank problem.
+
+### 200. 정사각형으로 만들기 (convert_to_square)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 201. 문자열 겹쳐쓰기 (overwrite_string)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Replaced the loop with `string::replace()` to overwrite part of the string.
+
+### 202. a와 b 출력하기 (print_a_and_b)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 203. [PCCE 기출문제] 7번 / 가습기 (pcce_7_humidifier)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Fill-in-the-blank problem.
+
+### 204. 캐릭터의 좌표 (character_coordinates)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 205. 종이 자르기 (paper_cutting)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified the formula to `N * M - 1`.
 
 ---
