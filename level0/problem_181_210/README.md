@@ -1,7 +1,7 @@
 # Level 0 Problems (181 ~ 210)
 
 ## Summary
-- Total Solved: 25
+- Total Solved: 30
 
 ---
 
@@ -153,5 +153,35 @@
 - Time: N/A
 - Solved by Myself: Yes
 - Notes: Simplified the formula to `N * M - 1`.
+
+### 206. 전국 대회 선발 고사 (national_selection_test)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Used `emplace_back()` instead of `push_back()` to avoid unnecessary copies.
+
+### 207. 직사각형 넓이 구하기 (calculate_rectangle_area)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 208. 외계어 사전 (alien_dictionary)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used `unordered_map` to check character frequencies.
+    - 2nd solution: Converted `spell` into a string and sorted it to compare with dictionary words.
+
+### 209. 로그인 성공? (level0)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified logic by removing unnecessary state variable.
+
+- ### 210. 대소문자 바꿔서 출력하기 (print_toggle_case)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
