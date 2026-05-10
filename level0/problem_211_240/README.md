@@ -1,7 +1,7 @@
 # Level 0 Problems (211 ~ 240)
 
 ## Summary
-- Total Solved: 5
+- Total Solved: 10
 
 ---
 
@@ -24,18 +24,46 @@
 
 - Time: N/A
 - Solved by Myself: Yes
-- Notes: Debugging exercise
+- Notes: Debugging exercise.
 
 ### 214. [PCCE 기출문제] 2번 / 각도 합치기 (pcce_2_angle_merge)
 
 - Time: N/A
 - Solved by Myself: Yes
-- Notes: Debugging exercise
+- Notes: Debugging exercise.
 
 ### 215. [PCCE 기출문제] 5번 / 심폐소생술 (pcce_5_cpr)
 
 - Time: N/A
 - Solved by Myself: Yes
 - Notes: Fill-in-the-blank problem.
+
+### 216. 저주의 숫자 3 (curse_number_3)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 217. 문자열 밀기 (push_string)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: The second implementation simplified the original rotation approach.
+
+### 218. [PCCE 기출문제] 6번 / 가채점 (pcce_6_preliminary_scoring)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Debugging exercise.
+
+### 219. 유한소수 판별하기 (determine_finite_decimal)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified the original factorization logic using `gcd()`.
+
+### 220. 배열 만들기 2 (make_array_2)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
