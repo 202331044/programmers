@@ -1,7 +1,7 @@
 # Level 0 Problems (211 ~ 240)
 
 ## Summary
-- Total Solved: 10
+- Total Solved: 15
 
 ---
 
@@ -65,5 +65,34 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 221. 배열 조각하기 (array_slicing)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified array slicing using vector range constructors.
+
+### 222. 다항식 더하기 (polynomial_addition)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 223. 특이한 정렬 (custom_sort)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Removed the extra pair vector by sorting directly with a custom comparator.
+
+### 224. 코드 처리하기 (process_code)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified conditions using the modulo operator.
+
+### 225. [PCCE 기출문제] 1번 / 출력 (pcce_1_print)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Fill-in-the-blank problem.
 
 ---
