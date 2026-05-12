@@ -1,7 +1,7 @@
 # Level 0 Problems (211 ~ 240)
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 25
 
 ---
 
@@ -94,5 +94,60 @@
 - Time: N/A
 - Solved by Myself: Yes
 - Notes: Fill-in-the-blank problem.
+
+### 226. [PCCE 기출문제] 3번 / 수 나누기 (pcce_3_divide_number)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Debugging exercise.
+
+### 227. 문자열 출력하기 (print_string)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 228. [PCCE 기출문제] 1번 / 문자 출력 (pcce_1_print_character)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Fill-in-the-blank problem.
+
+### 229. 최빈값 구하기 (find_mode)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 230. OX퀴즈 (ox_quiz)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified repetitive code using the ternary operator.
+
+### 231. 다음에 올 숫자 (next_number)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 232. 연속된 수의 합 (sum_of_consecutive_numbers)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 233. [PCCE 기출문제] 8번 / 창고 정리 (pcce_8_warehouse_cleanup)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Debugging exercise.
+
+### 234. [PCCE 기출문제] 6번 / 물 부족 (pcce_6_water_shortage)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Debugging exercise.
+
+### 235. 안전지대 (safe_zone)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
