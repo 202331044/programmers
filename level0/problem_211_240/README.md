@@ -1,7 +1,7 @@
 # Level 0 Problems (211 ~ 240)
 
 ## Summary
-- Total Solved: 25
+- Total Solved: 30
 
 ---
 
@@ -149,5 +149,38 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 236. 분수의 덧셈 (fraction_addition)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 237.주사위 게임 3 (dice_game_3) 
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 238. [PCCE 기출문제] 7번 / 버스 (pcce_7_bus)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Fill-in-the-blank problem.
+
+### 239. 겹치는 선분의 길이 (overlap_line_length)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used a counting array to measure overlapping lengths.
+    - 2nd solution: Calculated pairwise overlap lengths and subtracted the triple-overlap section.
+
+### 240. 평행 (parallel)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used `(y2 - y1) / (x2 - x1)` to compare slopes.
+    - 2nd solution: Avoided division by using `(y2 - y1)(x4 - x3) == (y4 - y3)(x2 - x1)`.
+    - 3rd solution: Created a `parallel()` function to remove duplicated code.
 
 ---
