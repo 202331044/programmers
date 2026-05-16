@@ -1,7 +1,7 @@
 # Level 1 Problems (001 ~ 030)
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 30
 
 ---
 
@@ -91,5 +91,91 @@
 - Notes:
     - 1st solution: Used a `count array` to identify missing numbers.
     - 2nd solution: Calculated the sum of missing numbers by using the `total sum (45)` and subtracting existing values directly.
+
+### 16. 나누어 떨어지는 숫자 배열 (divisible_array)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 17. 서울에서 김서방 찾기 (find_kim_in_seoul)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 18. 콜라츠 추측 (collatz_conjecture)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 19. 핸드폰 번호 가리기 (hide_phone_number)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Replaced the for loop with `std::fill` for cleaner, more concise string masking.
+
+### 20. 제일 작은 수 제거하기 (remove_smallest)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 21. 내적 (inner_product)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Replaced the for loop with `std::inner_product` to compute dot product more concisely.
+
+### 22. 가운데 글자 가져오기 (get_middle_char)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 23. 수박수박수박수박수박수? (watermelon)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 24. 약수의 개수와 덧셈 (divisor_count_sum)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Implemented a function to count divisors.
+    - 2nd solution: Optimized using the fact that perfect squares have an odd number of divisors.
+
+### 25. 문자열 내림차순으로 배치하기 (sort_string_desc)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified sorting by using `rbegin` and `rend` for reverse order.
+
+### 26. 부족한 금액 계산하기 (insufficient_funds)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Computed total cost using a for loop.
+    - 2nd solution: Optimized using the arithmetic series formula.
+    - 3rd solution: Simplified the formula-based approach.
+ 
+### 27. 문자열 다루기 기본 (string_basic_check)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 28. 행렬의 덧셈 (matrix_add)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 29. 직사각형 별찍기 (print_rectangle_stars)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified the code by using the `std::string` constructor to generate repeated characters.
+
+### 30. 같은 숫자는 싫어 (hate_same_number)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
