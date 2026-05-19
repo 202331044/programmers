@@ -1,7 +1,7 @@
 # Level 1 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 10
+- Total Solved: 15
 
 ---
 
@@ -56,6 +56,32 @@
 - Notes:  Simplified the code using `% 26`.
 
 ### 40. 두 개 뽑아서 더하기 (pick_two_sum)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 41. 푸드 파이트 대회 (food_fight_contest)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 42. K번째수 (kth_number)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 43. 숫자 문자열과 영단어 (number_string_words)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 44. 콜라 문제 (cola_problem)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified the logic by tracking only the current bottle count.
+
+### 45. 명예의 전당 (1) (hall_of_fame_1)
 
 - Time: N/A
 - Solved by Myself: Yes
