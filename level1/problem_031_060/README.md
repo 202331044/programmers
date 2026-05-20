@@ -1,7 +1,7 @@
 # Level 1 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 20
 
 ---
 
@@ -85,5 +85,41 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 46. 문자열 내 마음대로 정렬하기 (custom_string_sort)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 47. 카드 뭉치 (card_bundle)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 48. [1차] 비밀지도 (secret_map)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Converted each map into `vector<string>`.
+        - Merged the two maps by comparing each character.
+
+    - 2nd solution:
+        - Used bitwise OR (`|`) to merge the maps.
+        - Used bit masking to determine walls (`#`) and spaces (` `).
+
+### 49. 추억 점수 (yearning_score)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 50. 폰켓몬 (ponketmon)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:     
+    - Simplified the code using the range constructor of `unordered_set`.
+    - Used `min()` to return the result more concisely.
 
 ---
