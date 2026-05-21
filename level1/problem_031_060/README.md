@@ -1,7 +1,7 @@
 # Level 1 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 25
 
 ---
 
@@ -121,5 +121,43 @@
 - Notes:     
     - Simplified the code using the range constructor of `unordered_set`.
     - Used `min()` to return the result more concisely.
+
+### 51. 기사단원의 무기 (knight_weapon)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 52. 모의고사 (mock exam)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Used `vector<pair<int, int>>` and sorting to rank students by score.
+        - The return logic was hard-coded and less maintainable.
+    - 2nd solution:
+        - Found the maximum score first and selected students matching it without sorting.
+        - Simplified the logic and removed unnecessary sorting.
+
+### 53. 2016년 (year_2016)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Simulated the calendar by increasing the date one day at a time.
+    - 2nd solution:
+        - Calculated the total number of days by adding the days of each month.
+        - Removed unnecessary daily simulation.
+
+### 54. 덧칠하기 (paint)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified the solution by tracking the last painted position.
+
+### 55. [PCCE 기출문제] 9번 / 지폐 접기 (pcce_9_fold_bill)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
