@@ -1,7 +1,7 @@
 # Level 1 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 25
+- Total Solved: 30
 
 ---
 
@@ -156,6 +156,31 @@
 - Notes: Simplified the solution by tracking the last painted position.
 
 ### 55. [PCCE 기출문제] 9번 / 지폐 접기 (pcce_9_fold_bill)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 56. 과일 장수 (fruit_seller)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 57. 옹알이 (2) (babbling_2)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 58. 소수 찾기 (find_primes)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 59. 소수 만들기 (make_primes)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 60. 실패율 (fail_rate)
 
 - Time: N/A
 - Solved by Myself: Yes
