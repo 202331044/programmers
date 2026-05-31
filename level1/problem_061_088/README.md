@@ -1,7 +1,7 @@
 # Level 1 Problems (061 ~ 088)
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 20
 
 ---
 
@@ -90,5 +90,42 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 76. 바탕화면 정리 (desktop_cleanup)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 77. 개인정보 수집 유효기간 (privacy_expiration)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - 1st solution:
+        - Parsed dates manually.
+        - Calculated expiration dates directly.
+        - Failed due to incorrect date calculations.
+    - 2nd solution:
+        - Used `getline()` to parse dates.
+        - Converted dates to total days.
+        - Simplified date calculation and comparison.
+
+### 78. 유연근무제 (flexible_workplace)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 79. 달리기 경주 (running_race)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 80. 공원 산책 (park_walk)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Handled each direction with separate `if` statements.
+    - 2nd solution: Used direction arrays (`dx`, `dy`) to remove duplicated code.
 
 ---
