@@ -1,7 +1,7 @@
 # Level 1 Problems (061 ~ 088)
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 28
 
 ---
 
@@ -127,5 +127,63 @@
 - Notes:
     - 1st solution: Handled each direction with separate `if` statements.
     - 2nd solution: Used direction arrays (`dx`, `dy`) to remove duplicated code.
+
+### 81. 중요한 단어를 스포 방지 (word_spoiler_protection)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 82. 노란불 신호등 (yellow_light)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Used a sufficiently large upper bound for the search range.
+        - Used a count array to mark yellow-light intervals.
+    - 2nd solution:
+        - Reduced the search range by computing the LCM of all signal cycles.
+    - 3rd solution:
+        - Checked whether every signal is in its yellow phase at time `t` using modulo arithmetic.
+- References: https://tech.kakao.com/posts/813
+
+### 83. [PCCE 기출문제] 10번 / 공원 (pcce_10_park)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Checked square regions using `BFS`.
+    - 2nd solution: Used `dynamic programming` to compute the largest available square.
+
+### 84. [PCCP 기출문제] 1번 / 붕대 감기 (pccp_1_bandage)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 85. [PCCP 기출문제] 1번 / 동영상 재생기 (pccp_1_video_player)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 86. 신고 결과 받기 (receive_report_result)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 87. 택배 상자 꺼내기 (take_out_box)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Simulated the box arrangement using a 2D array.
+    - 2nd solution: Determined box coordinates using division and modulo arithmetic.
+
+### 88. 가장 많이 받은 선물 (most_received_gift)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used `unordered_map` to manage gift histories and gift scores.
+    - 2nd solution: Mapped friend names to indices and replaced hash-based structures with vectors.
 
 ---

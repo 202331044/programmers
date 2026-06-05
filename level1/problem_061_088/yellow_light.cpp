@@ -9,7 +9,6 @@ int solution(vector<vector<int>> signals) {
 //     vector<pair<int ,int>> vec;
 //     int MAX = 10000000;
     
-    
 //     vector<int> count(MAX + 1, 0);
 //     for(auto& signal: signals)
 //     {
