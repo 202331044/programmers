@@ -1,0 +1,38 @@
+# Level 2 Problems (001 ~ 030)
+
+## Summary
+- Total Solved: 5
+
+---
+
+## Problem List
+
+### 1. 최댓값과 최솟값 (max_and_min)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 2. JadenCase 문자열 만들기 (jaden_case_string)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 3. 올바른 괄호 (valid_parentheses)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:  Used `stack` to match opening and closing parentheses.
+    - 2nd solution: Replaced the `stack` with a counter because only one type of parenthesis exists.
+
+### 4. 최솟값 만들기 (make_minimum)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 5. 이진 변환 반복하기 (repeat_binary_conversion)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+---
