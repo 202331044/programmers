@@ -102,4 +102,38 @@
 - Time: N/A
 - Solved by Myself: Yes
 
+### 16. 연속 부분 수열 합의 개수 (contiguous_subsequence_sum)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+    - Refactored the solution to eliminate special handling for length 1 subsequences.
+    - Used a running sum while expanding the subsequence length.
+
+### 17. 영어 끝말잇기 (english_word_chain)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 18. 예상 대진표 (expected_tournament_round)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+    - Simplified the round progression logic using `(x + 1) / 2`.
+    - Repeated until both players reached the same position.
+
+### 19. 할인 행사 (discount_event)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used a `queue` to track the discount sequence and manage product counts.
+    - 2nd solution: Used a sliding window with two hash maps (`target`, `window`), resulting in cleaner code.
+
+### 20. 괄호 회전하기 (bracket_rotation)
+
+- Time: N/A
+- Solved by Myself: Yes
+
 ---
