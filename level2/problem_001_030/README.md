@@ -1,7 +1,7 @@
 # Level 2 Problems (001 ~ 030)
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 25
 
 ---
 
@@ -135,5 +135,45 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 21. n^2 배열 자르기 (n2_array_slice)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 22. 의상 (clothes)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 23. H-Index (h_index)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Used `min(citations[i], n - i)` as an H-index candidate.
+        - Tracked the maximum candidate value.
+    - 2nd solution:
+        - After sorting, returned the first `n - i` satisfying `citations[i] >= n - i`.
+
+### 24. 피로도 (fatigue)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - Used DFS with backtracking to explore all possible dungeon orders.
+    - Replaced the global variable with a local answer variable for better reusability.
+
+### 25. 기능개발 (feature_development)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Simulated deployments by updating progress values until the next deployment.
+    - 2nd solution:
+        - Converted progress values into completion days using ceiling division.
+        - Grouped features by deployment day.
 
 ---
