@@ -1,7 +1,7 @@
 # Level 2 Problems (001 ~ 030)
 
 ## Summary
-- Total Solved: 25
+- Total Solved: 30
 
 ---
 
@@ -175,5 +175,45 @@
     - 2nd solution:
         - Converted progress values into completion days using ceiling division.
         - Grouped features by deployment day.
+
+### 26. 행렬의 곱셈 (matrix_multiply)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 27. 전화번호 목록 (phone_number_list)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Sort by length and check every prefix using a `hash set`.
+    - 2nd solution:
+        - Sort lexicographically.
+        - Prefix-related phone numbers become adjacent.
+        - Compare only neighboring strings.
+
+### 28. [1차] 캐시 (cache)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Simulated LRU using a `queue` and access timestamps stored in `unordered_map`.
+        - Outdated cache records were discarded by comparing timestamps.
+    - 2nd solution:
+        - Implemented a real LRU cache using `list` and `unordered_map`.
+        - `unordered_map` stores iterators for O(1) cache lookup.
+        - `list::splice()` moves recently used entries to the front in O(1) without invalidating iterators.
+
+### 29. 프로세스 (process)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 30. 롤케이크 자르기 (rollcake)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
