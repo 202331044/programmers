@@ -39,7 +39,6 @@ int solution(int n, int k) {
     {
         if(ch == '0')
         {
-            
             if(!number.empty() && isPrime(stoll(number)))
                 answer++;
             

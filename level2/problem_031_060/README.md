@@ -1,7 +1,7 @@
 # Level 2 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 5
+- Total Solved: 10
 
 ---
 
@@ -54,5 +54,35 @@
 	- 2nd solution:
 		- Used a `set<Edge>` to store unique edges.
   		- Normalized bidirectional edges and returned `set::size()`.
+
+### 36. [1차] 뉴스 클러스터링 (news_clustering)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 37. 뒤에 있는 큰 수 찾기 (next_greater_number)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Optimized stack storage by keeping only indices instead of `pair<value, index>`, since values can be accessed through `numbers[idx]`.
+
+### 38. 더 맵게 (more_spicy)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 39. k진수에서 소수 개수 구하기 (prime_count_k_base)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - Initial solution timed out due to inefficient prime checking.
+    - Optimized prime checking to O(√N).
+    - Skipped even divisors after handling `num % 2 == 0`..
+
+### 40. 주식가격 (stock_price)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
