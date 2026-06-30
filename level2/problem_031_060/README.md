@@ -1,7 +1,7 @@
 # Level 2 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 10
+- Total Solved: 15
 
 ---
 
@@ -84,5 +84,40 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 41. 땅따먹기 (land_game)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 42. [3차] 압축 (compression)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 43. [3차] n진수 게임 (base_n_game)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+  - 1st solution: Generated the entire sequence first, then extracted the characters for the player's turns.
+  - 2nd solution: Generated only the required characters on the fly, avoiding the need to store the entire sequence.
+
+### 44. 택배상자 (delivery_box)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Processed the delivery order using sorting.
+	- 2nd solution: Simulated the delivery process using a `stack`.
+
+### 45. 숫자 변환하기 (convert_number)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+  - 1st solution: Tried `DFS`, but it exceeded the time limit due to exploring too many states.
+  - 2nd solution: Solved the problem using `BFS` to find the minimum number of operations.
+  - 3rd solution: Solved the problem using `DP` by exploiting the fact that every operation only increases the value.
 
 ---
