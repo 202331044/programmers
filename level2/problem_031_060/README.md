@@ -1,7 +1,7 @@
 # Level 2 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 20
 
 ---
 
@@ -119,5 +119,41 @@
   - 1st solution: Tried `DFS`, but it exceeded the time limit due to exploring too many states.
   - 2nd solution: Solved the problem using `BFS` to find the minimum number of operations.
   - 3rd solution: Solved the problem using `DP` by exploiting the fact that every operation only increases the value.
+
+### 46. 스킬트리 (skill_tree)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+  - 1st solution: Iterated over the required skills and located them in each skill tree using `find()`.
+  - 2nd solution: Iterated over each skill tree once while tracking the next expected skill.
+
+### 47. 주차 요금 계산 (parking_fee)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 48. 2 x n 타일링 (2_n_tiling)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 49. [3차] 파일명 정렬 (file_name_sort)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+  - 1st solution: Parsed each file into a `Name` structure and preserved the original order by storing the original indices.
+  - 2nd solution:
+    - Used a `FileInfo` structure containing both the original file name and the parsed information.
+    - Used `stable_sort` to preserve the original order of equivalent elements.
+
+### 50. 오픈채팅방 (open_chat_room)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Parsed each record twice to update nicknames and generate messages.
+	- 2nd solution: Parsed each record once, stored the events, and reused them to generate the final messages.
 
 ---
