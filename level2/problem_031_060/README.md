@@ -1,7 +1,7 @@
 # Level 2 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 25
 
 ---
 
@@ -155,5 +155,44 @@
 - Notes:
 	- 1st solution: Parsed each record twice to update nicknames and generate messages.
 	- 2nd solution: Parsed each record once, stored the events, and reused them to generate the final messages.
+
+### 51. [1차] 프렌즈4블록 (friends_4block)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+	- Simplified the 2×2 block detection using direct condition comparisons.
+	- Refactored the gravity logic to eliminate unnecessary swaps and improve readability.
+
+### 52. 가장 큰 수 (largest_number)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+	- 1st attempt: Converted the numbers to strings and compared them digit by digit, which failed for some cases.
+	- Solution: Sorted the strings by comparing `a + b` and `b + a`.
+
+### 53. 소수 찾기 (find_primes)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Improved the DFS by skipping duplicate permutations when identical digits had not been used previously.
+
+### 54. 2개 이하로 다른 비트 (two_different_bits)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Converted numbers to binary strings.
+		- Replaced the first `0` with `1` and the preceding bit with `0`.
+	- 2nd solution:
+		- Used `number ^ (number + 1)` to identify the bit pattern.
+		- Calculated the increment as `(k >> 2) + 1`, where `k = number ^ (number + 1)`.
+
+### 55. 쿼드압축 후 개수 세기 (compress_quad)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
