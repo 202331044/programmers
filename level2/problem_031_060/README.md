@@ -1,7 +1,7 @@
 # Level 2 Problems (031 ~ 060)
 
 ## Summary
-- Total Solved: 25
+- Total Solved: 30
 
 ---
 
@@ -194,5 +194,60 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 56. 두 큐 합 같게 만들기 (equalize_queue_sums)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - Limit the number of operations to `3 * size` to detect impossible cases.
+    - 1st solution: Simulated the process using `queue`.
+    - 2nd solution: 
+		- Optimized using the `two-pointer (sliding window)` approach.
+		- Duplicated both queues in a single array to simulate circular queue movement without using actual queues.
+		- Checked whether the total sum is even before processing.
+
+### 57. 다리를 지나는 트럭 (truck_crossing_bridge)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Simulated truck movements while tracking the total weight on the bridge.
+        - Inserted `0` to represent an empty slot on the bridge when no truck could enter.
+    - 2nd solution:
+        - Modeled the bridge as a `queue`.
+        - Advanced time by popping the front element and pushing either the next truck or `0`.
+
+### 58. 큰 수 만들기 (make_largest_number)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- Removed smaller previous digits while `k > 0` to maximize the resulting number.
+    - 1st solution: Used additional conditional statements to handle edge cases.
+    - 2nd solution: Simplified the logic by relying on a single `while` loop.
+
+### 59. 전력망을 둘로 나누기 (power_grid_split)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used `bfs` to calculate the size of each connected component after removing a wire.
+    - 2nd solution:
+        - Precomputed subtree sizes using `dfs`.
+        - Used the parent array to identify the child node and compute the size difference in `O(1)`.
+		- Reduced the time complexity from `O(n²)` to `O(n)`.
+
+### 60. 마법의 엘리베이터 (magic_elevator)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - Used a greedy strategy by processing one digit at a time.
+    - 1st solution: Converted the number to a `string` and processed each digit.
+    - 2nd solution:
+        - Processed digits directly using arithmetic operations (`% 10`, `/ 10`).
+        - Simplified the implementation by avoiding string conversion.
 
 ---
