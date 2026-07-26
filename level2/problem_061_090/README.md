@@ -1,7 +1,7 @@
 # Level 2 Problems (061 ~ 090)
 
 ## Summary
-- Total Solved: 5
+- Total Solved: 10
 
 ---
 
@@ -45,5 +45,57 @@
 - Notes:
     - 1st solution: Counted the maximum number of overlapping bookings using a line sweep.
     - 2nd solution: Used a min-heap (`priority_queue`) to track the earliest available room.
+
+### 66. 배달 (delivery)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution:
+        - Used an adjacency matrix with a BFS-like traversal.
+        - Updated the shortest distance whenever a shorter path was found.
+        - Inefficient because it checked every vertex for each node.
+    - 2nd solution:
+        - Switched from an adjacency matrix to an adjacency list.
+        - Applied Dijkstra's algorithm using a priority queue.
+        - Improved efficiency by traversing only adjacent nodes.
+
+### 67. 서버 증설 횟수 (server_expansion_count)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used a queue to manage active servers and their expiration times.
+    - 2nd solution:
+        - Replaced the queue with a vector indexed by expiration time.
+        - Simplified expiration handling with direct indexing.
+
+### 68. 리코쳇 로봇 (ricochet_robot)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used a separate `visited` array and stored the move count in the BFS queue.
+    - 2nd solution:
+        - Extracted the logic for finding the start position into a helper function.
+        - Replaced the `visited` array with a `dist` array to track both visited states and move counts.
+
+### 69. 메뉴 리뉴얼 (menu_renewal)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Generated all possible menu combinations and stored them by size.
+    - 2nd solution: Generated only combinations of the target sizes.
+
+### 70. 124 나라의 숫자 (124_country_number)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - Attempt: Tried converting the number using `% 3`, but failed because the 124 number system has no digit `0`.
+    - Solution:
+        - If `n % 3 == 0`, append `4` instead of `0`.
+        - Decrease the quotient by `1` (`n = n / 3 - 1`) because replacing `0` with `4` borrows `1` from the next higher digit.
 
 ---
