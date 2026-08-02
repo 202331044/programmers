@@ -1,7 +1,7 @@
 # Level 2 Problems (061 ~ 090)
 
 ## Summary
-- Total Solved: 10
+- Total Solved: 16
 
 ---
 
@@ -97,5 +97,41 @@
     - Solution:
         - If `n % 3 == 0`, append `4` instead of `0`.
         - Decrease the quotient by `1` (`n = n / 3 - 1`) because replacing `0` with `4` borrows `1` from the next higher digit.
+
+### 71. 디펜스 게임 (defense_game)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Use a max heap to replace the largest previous wave when soldiers are insufficient.
+    - 2nd solution: Keep the largest `k` waves in a min heap and use soldiers for the remaining waves.
+
+### 72. [3차] 방금그곡 (just_played_song)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Manually split the input string using a loop.
+    - 2nd solution: Use `stringstream` and `getline` for cleaner string parsing.
+
+### 73. 테이블 해시 함수 (table_hash_function)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 74. 행렬 테두리 회전하기 (rotate_matrix_border) 
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 75. 무인도 여행 (deserted_island)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 76. 괄호 변환 (parentheses_transform)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
