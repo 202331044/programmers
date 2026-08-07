@@ -1,7 +1,7 @@
 # Level 2 Problems (061 ~ 090)
 
 ## Summary
-- Total Solved: 16
+- Total Solved: 20
 
 ---
 
@@ -133,5 +133,37 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 77. 수식 최대화 (maximize_equation.cpp)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Enumerated all operator precedence permutations manually.
+    - 2nd solution: Generated operator precedence permutations using `next_permutation`.
+
+### 78. 거리두기 확인하기 (social_distancing)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Checked all possible violation cases manually using loops and condition statements.
+    - 2nd solution: Used `BFS` to search positions within a distance of 2.
+
+### 79. 가장 큰 정사각형 찾기 (find_largest_square)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 80. 줄 서는 방법 (method_to_line_up)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - 1st attempt: Failed because `k` was updated using `i` instead of `i - 1`.
+    - 1st solution: Fixed the bug by updating `k` using `i - 1`.
+    - 2nd solution:
+        - Updated `fact` iteratively.
+        - Calculated the next index using the quotient and updated `k` using the remainder.
 
 ---
