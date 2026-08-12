@@ -1,7 +1,7 @@
 # Level 2 Problems (061 ~ 090)
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 25
 
 ---
 
@@ -165,5 +165,37 @@
     - 2nd solution:
         - Updated `fact` iteratively.
         - Calculated the next index using the quotient and updated `k` using the remainder.
+
+### 81. 하노이의 탑 (tower_of_hanoi)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 82. 광물 캐기 (mine_minerals)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 83. [PCCP 기출문제] 2번 / 퍼즐 게임 챌린지 (puzzle_game_challenge)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Simplified binary search with a separate validity check.
+
+### 84. 비밀 코드 해독 (decipher_secret_code)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used `find` to count matching elements.
+    - 2nd solution: Used `bit masks` and `popcount` to count matching elements.
+
+### 85. 지게차와 크레인 (forklift_and_crane)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Checked 4 directions from the storage edges to implement the forklift.
+    - 2nd solution: Added padding to the storage and used `BFS` from the outside to implement the forklift.
 
 ---
