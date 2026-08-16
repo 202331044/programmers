@@ -1,7 +1,7 @@
 # Level 2 Problems (061 ~ 090)
 
 ## Summary
-- Total Solved: 25
+- Total Solved: 30
 
 ---
 
@@ -197,5 +197,38 @@
 - Notes:
     - 1st solution: Checked 4 directions from the storage edges to implement the forklift.
     - 2nd solution: Added padding to the storage and used `BFS` from the outside to implement the forklift.
+
+### 86. 문자열 압축 (string_compression)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 87. [PCCP 기출문제] 2번 / 석유 시추 (oil_drilling)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Stored oil cluster sizes directly in the original `land` array.
+    - 2nd solution: Assigned IDs to oil clusters and stored their sizes separately.
+    - Used `unordered_set` to avoid counting the same cluster multiple times in a column.
+
+### 88. 이모티콘 할인행사 (emoticon_discount_event)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: `price * 0.9` and `price - price * 1 / 10` can produce different results due to floating-point arithmetic and integer truncation.
+
+### 89. 우박수열 정적분 (collatz_sequence_definite_integral)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used the `Shoelace formula` to calculate the area of each trapezoid.
+    - 2nd solution: Used the `Trapezoidal rule` to calculate the area directly.
+
+### 90. 과제 진행하기 (progressing_assignments)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
