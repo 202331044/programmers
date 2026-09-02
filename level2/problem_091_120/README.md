@@ -1,7 +1,7 @@
 # Level 2 Problems (091 ~ 120)
 
 ## Summary
-- Total Solved: 10
+- Total Solved: 15
 
 ---
 
@@ -93,4 +93,47 @@
     - 1st solution: Assigned an index to each group and calculated each group size.
     - 2nd solution: Used a `visited` array and directly calculated each group size.
 
+### 101. [PCCP 기출문제] 3번 / 충돌위험 찾기 (finding_collision_risks)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Counted the number of robots at each position for every time step.
+    - 2nd solution:
+        - Generated the complete route of each robot first.
+        - Counted collisions at each time step.
+        - Separated route generation from collision detection, making the logic simpler and easier to follow.
+
+### 102. 택배 배달과 수거하기 (delivery_and_pick)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Calculated the maximum distance for each trip by processing deliveries and pickups separately.
+    - 2nd solution: Simplified the solution by processing deliveries and pickups together using cumulative quantities, starting from the farthest house.
+
+### 103. 바이러스 파이프 (virus_pipe)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+    - Separated the code into `DFS` and `BFS` parts.
+    - Used `BFS` to spread the virus along the selected pipe type and `DFS` to explore different pipe type sequences.
+
+### 104. 순위 검색 (ranking_search)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Separated cases using a multi-dimensional vector.
+    - 2nd solution: Generated all possible keys using bitmasking and used binary search to count matching scores.
+
+### 105. 멀쩡한 사각형 (normal_rectangle)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - Used the formula `w + h - gcd(w, h)` to calculate the number of broken squares.
+    - Subtracted the broken squares from the total area `w * h`.
+ 
 ---
