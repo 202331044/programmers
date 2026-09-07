@@ -1,7 +1,7 @@
 # Level 2 Problems (091 ~ 120)
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 20
 
 ---
 
@@ -136,4 +136,36 @@
     - Used the formula `w + h - gcd(w, h)` to calculate the number of broken squares.
     - Subtracted the broken squares from the total area `w * h`.
  
+### 106. 교점에 별 만들기 (make_star_with_line_intersections)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes: Used the line intersection formula for `Ax + By + E = 0` and `Cx + Dy + F = 0`: `x = (BF - ED) / (AD - BC)`, `y = (EC - AF) / (AD - BC)`.
+
+### 107. 완전범죄 (perfect_crime)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+    - Used a knapsack-style dynamic programming approach.
+    - Tracked the minimum trace for A for each possible trace for B, while discarding invalid states that exceed the limits.
+
+### 108. 카카오프렌즈 컬러링북 (kakao_friends_coloring_book)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 109. 힌트 스테이지 (hint_stage)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 110. 도넛과 막대 그래프 (donut_and_stick_graph)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used `BFS` to calculate the counts of each graph type.
+    - 2nd solution: Used `in/out-degree` to identify each graph type and calculate their counts.
+
 ---
