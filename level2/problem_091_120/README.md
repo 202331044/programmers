@@ -1,7 +1,7 @@
 # Level 2 Problems (091 ~ 120)
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 25
 
 ---
 
@@ -167,5 +167,40 @@
 - Notes:
     - 1st solution: Used `BFS` to calculate the counts of each graph type.
     - 2nd solution: Used `in/out-degree` to identify each graph type and calculate their counts.
+
+### 111. 단체사진 찍기 (taking_a_group_photo)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Generated all permutations and filtered them by conditions.
+    - 2nd solution: Checked conditions directly for each permutation.
+    - Used brute-force since there are only 8! permutations.
+
+### 112. 3 x n 타일링 (3_n_tiling)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes: 
+    - 1st solution: Used `dp[n] = 3 * dp[n - 2] + 2 * dp[n - 4] + 2 * dp[n - 6] + ...`
+    - 2nd solution: Subtracted the `dp[n - 2]` equation from the `dp[n]` equation and simplified it.
+
+### 113. 유사 칸토어 비트열 (similar_cantor_bit_sequence)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+    - 1st solution: Used a recursive function to count the number of ones.
+    - 2nd solution: Counted the number of ones up to `r` and `l - 1`, then subtracted them.
+
+### 114. 당구 연습 (billiards_practice)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 115. 미로 탈출 (maze_escape)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
