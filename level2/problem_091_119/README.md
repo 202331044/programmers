@@ -1,7 +1,7 @@
-# Level 2 Problems (091 ~ 120)
+# Level 2 Problems (091 ~ 119)
 
 ## Summary
-- Total Solved: 25
+- Total Solved: 29
 
 ---
 
@@ -202,5 +202,50 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 116. 빛의 경로 사이클 (light_path_cycles)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - The initial solution failed because the answer was not sorted.
+    - 1st solution: Used a separate function to calculate the next position and direction with multiple conditional statements.
+    - 2nd solution: Simplified the calculation of the next position and direction using `dr`, `dc`, and direction changes.
+
+### 117. [PCCP 기출문제] 3번 / 아날로그 시계 (analog_clock)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - The initial solution attempted to simulate the clock second by second, but it failed.
+    - Solution:
+        - Calculated the movement of each hand: the second hand moves `6°` per second, the minute hand moves `0.1°` per second, and the hour hand moves `360 / 43200°` per second.
+        - The hands overlap when `6t - 0.1t = 360k` or `6t - (360 / 43200)t = 360k`.
+        - Calculated the number of overlaps by counting the possible values of `k` between the start and end times.
+        - Subtracted the overlapping cases at `00:00` and `12:00`, where all three hands overlap.
+
+### 118. 리프 노드 수 최대화 (maximize_leaf_nodes)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - The initial solution attempted to use `dfs`, but it failed due to a time limit.
+    - Solution:
+        - Partial splitting can be concentrated on the final layer.
+        - 2-way splits are placed before 3-way splits since they use less budget for the same frontier size.
+        - Enumerate the number of 2-way and 3-way split layers and simulate each case.
+        - If the final layer cannot be fully split, split only the required number of nodes.
+- References: https://tech.kakao.com/posts/813
+
+### 119. 선인장 숨기기 (hide_the_cactus)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+    - The initial solution checked all possible areas, but it failed due to a time limit.
+    - Solution:
+        - Use a `deque` to find the minimum rain order for each sliding window.
+        - First process each row with width `w`, then process the results by column with height `h`.
+        - This reduces the 2D range minimum search to two passes of 1D sliding window minimums.
 
 ---
