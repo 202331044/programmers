@@ -1,14 +1,13 @@
 # Level 3 Problems
 
-## Summary
-- Total Solved: 1
-
 ---
 
-## Problem List
+## Progress
 
-### 1. 단어 변환(word_transformation)
-- Time: N/A
-- Solved by Myself: Yes
-- Note: 깊이/너비 우선 탐색(DFS/BFS)
+- Total Solved: 5
+
+| File | Solved | Link |
+|------|--------|------|
+| problem_001_030 | 5 / 30 problems | [View](./problem_001_030/README.md) |
+
 ---
