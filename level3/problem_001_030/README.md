@@ -1,7 +1,7 @@
 # Level 3 Problems
 
 ## Summary
-- Total Solved: 5
+- Total Solved: 10
 
 ---
 
@@ -46,5 +46,44 @@
 - Notes:
 	- 1st solution: Used min/max `priority_queue`s with additional queues for lazy deletion.
 	- 2nd solution: Used `multiset` to handle both minimum and maximum values.
+
+### 6. 등굣길 (way_to_school)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 7. 숫자 게임 (number_game)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Sorted arrays in descending order using `rbegin()` and `rend()`.
+		- Used four pointers to compare numbers.
+	- 2nd solution:
+		- Sorted arrays in ascending order.
+		- Used two pointers with a greedy approach.
+
+### 8. 단속카메라 (speed_camera)
+
+- Time: N/A
+- Solved by Myself: Yes
+
+### 9. 기지국 설치 (base_station_installation)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Moved the current position by the coverage length.
+		- Skipped the covered area when encountering an existing station.
+	- 2nd solution:
+		- Calculated the length of uncovered sections.
+		- Calculated the required number of stations using the coverage length.
+
+### 10. 최고의 집합 (best_set)
+
+- Time: N/A
+- Solved by Myself: Yes
 
 ---
