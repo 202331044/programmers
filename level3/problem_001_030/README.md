@@ -1,7 +1,7 @@
 # Level 3 Problems
 
 ## Summary
-- Total Solved: 10
+- Total Solved: 15
 
 ---
 
@@ -85,5 +85,48 @@
 
 - Time: N/A
 - Solved by Myself: Yes
+
+### 11. 베스트앨범 (best_album)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+	- 1st Solution: Used `pair<int, int>` to store song IDs and play counts.
+	- 2nd Solution: Introduced a `Song` struct for better readability.
+	- Both use the same algorithm, selecting up to two songs per genre based on play counts and song IDs.
+
+### 12. 불량 사용자 (banned_user)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st Solution: Mapped user IDs to indices and tracked selections using `vector<bool>`.
+	- 2nd Solution: Used `bitmasking` to track selected users and `unordered_set` to deduplicate cases.
+	- Both solutions use `DFS` to explore valid banned-user combinations and prevent selecting the same user more than once.
+
+### 13. 보석 쇼핑 (gem_shopping)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st Solution: Manually controlled both pointers to expand and shrink the window while tracking gem counts.
+	- 2nd Solution: Used a frequency map to shrink the window whenever all gem types were included, updating the shortest valid range.
+
+### 14. 부대복귀 (return_to_military_base)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Used `BFS` from the destination to calculate the shortest distance to every region.
+
+### 15. 섬 연결하기 (connecting_islands)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+	- The initial solution failed because edges were not added in both directions when building the graph.
+	- Solution:
+		- Built an undirected graph by adding each edge in both directions.
+		- Used `Prim's algorithm` with a `min-priority queue` to select the lowest-cost edges.
+		- Added the cost of each selected edge and marked the newly connected island as visited.
 
 ---

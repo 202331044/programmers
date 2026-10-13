@@ -4,10 +4,10 @@
 
 ## Progress
 
-- Total Solved: 10
+- Total Solved: 15
 
 | File | Solved | Link |
 |------|--------|------|
-| problem_001_030 | 10 / 30 problems | [View](./problem_001_030/README.md) |
+| problem_001_030 | 15 / 30 problems | [View](./problem_001_030/README.md) |
 
 ---
