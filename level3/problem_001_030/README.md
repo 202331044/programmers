@@ -1,7 +1,7 @@
 # Level 3 Problems
 
 ## Summary
-- Total Solved: 15
+- Total Solved: 20
 
 ---
 
@@ -128,5 +128,58 @@
 		- Built an undirected graph by adding each edge in both directions.
 		- Used `Prim's algorithm` with a `min-priority queue` to select the lowest-cost edges.
 		- Added the cost of each selected edge and marked the newly connected island as visited.
+
+### 16. 여행경로 (travel_route)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: 
+		- Explored all possible routes using `DFS` and `backtracking`.
+		- Returned the first valid route in lexicographical order.
+	- 2nd solution: 
+		- Used `Hierholzer's algorithm` to construct an `Eulerian path`.
+		- Used a `min-heap priority queue` to explore destinations in lexicographical order.
+		- Added airports to the route after exploring all outgoing tickets, then reversed the resulting route.
+
+### 17. 가장 먼 노드 (farthest_node)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: Separated the maximum distance calculation from the `BFS` traversal, which calculates the distance to each node.
+
+### 18. 징검다리 건너기 (stepping_stones)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Used a `min-heap priority queue` to process stones in ascending order of their durability.
+		- Tracked consecutive unusable stones and returned the number of people who could cross when the count reached `k`.
+	- 2nd solution:
+		- Used `binary search` to find the maximum number of people who could cross.
+		- If `k` consecutive stones could not support `mid` people, reduced the upper bound; otherwise, increased the lower bound.
+
+### 19. 연속 펄스 부분 수열의 합 (consecutive_pulse_subsequence_sum)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Used two separate loops to evaluate both alternating pulse patterns.
+		- Reset the cumulative sum to 0 whenever it became negative.
+	- 2nd solution:
+		- Evaluated both alternating pulse patterns simultaneously in a single loop.
+		- Updated both cumulative sums at each index and tracked the maximum sum.
+
+### 20. 스티커 모으기(2) (collecting_stickers_2)
+
+- Time: N/A
+- Solved by Myself: No
+- Notes:
+	- The initial solution failed to handle the cases of selecting the first or last sticker separately.
+	- Solution:
+		- Used `dynamic programming` and divided the problem into two cases: selecting the first sticker or excluding it.
+		- Used the recurrence relation `dp[i] = max(dp[i - 1], dp[i - 2] + sticker[i])` to calculate the maximum sum.
 
 ---
