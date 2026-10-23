@@ -1,7 +1,7 @@
 # Level 3 Problems
 
 ## Summary
-- Total Solved: 20
+- Total Solved: 25
 
 ---
 
@@ -181,5 +181,54 @@
 	- Solution:
 		- Used `dynamic programming` and divided the problem into two cases: selecting the first sticker or excluding it.
 		- Used the recurrence relation `dp[i] = max(dp[i - 1], dp[i - 2] + sticker[i])` to calculate the maximum sum.
+
+### 21. 입국심사 (immigration_inspection)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+	- Optimized binary search by setting the upper bound to `n * times[0]`.
+	- Terminated the loop early when the processed count reached `n`.
+
+### 22. 디스크 컨트롤러 (disk_controller)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+	- 1st solution: Used two `min-heaps` to manage jobs by arrival time and processing time, respectively.
+	- 2nd solution: Sorted jobs by arrival time in advance and used a single `min-heap` to prioritize available jobs by processing time.
+
+### 23. 가장 긴 팰린드롬 (longest_palindrome)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+	- 1st solution: 
+		- Checked substrings for palindromes and updated the maximum length. 
+		- Started checking from `maxLen + 1` to skip shorter substrings.
+	- 2nd solution: 
+		- Used the `expand-around-center approach`, expanding left and right from each center for both odd- and even-length palindromes.
+		- Reduced the time complexity from `O(N³)` to `O(N²)` and the auxiliary space complexity from `O(N)` to `O(1)`.
+
+### 24. 경주로 건설 (race_track_construction)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+	- Used `Dijkstra's algorithm` with a `min-priority queue` to process states in increasing order of construction cost.
+	- Tracked visited states by position and direction to account for different costs of reaching the same cell.
+
+### 25. 다단계 칫솔 판매 (multi_level_toothbrush_sales)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Stored sales counts for each possible price and processed each person's earnings by iterating through all possible prices.
+		- Passed the referral commission to the parent by updating the parent's price counts.
+	- 2nd solution:
+		- Used a parent array to store each person's referrer index and an `unordered_map` to map names to indices.
+		- Processed each sale individually, distributing 10% of the remaining money up the referral chain until the money became 0 or there was no referrer.
+		- Improved space efficiency from `O(N * M)` to `O(N)`, where `N` is the number of members and `M` is the number of possible prices.
 
 ---
