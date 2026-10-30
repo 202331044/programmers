@@ -1,7 +1,7 @@
 # Level 3 Problems
 
 ## Summary
-- Total Solved: 25
+- Total Solved: 30
 
 ---
 
@@ -230,5 +230,62 @@
 		- Used a parent array to store each person's referrer index and an `unordered_map` to map names to indices.
 		- Processed each sale individually, distributing 10% of the remaining money up the referral chain until the money became 0 or there was no referrer.
 		- Improved space efficiency from `O(N * M)` to `O(N)`, where `N` is the number of members and `M` is the number of possible prices.
+
+### 26. 풍선 터트리기 (burst_balloons)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Used two arrays to store prefix and suffix minimums.
+	- 2nd solution: Optimized by using one array for suffix minimums and calculating prefix minimums on the fly.
+	
+### 27. [1차] 셔틀버스 (shuttle_bus)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: Used a `priority queue` to process crew members in ascending order of arrival time.
+	- 2nd solution: 
+		- Sorted the timetable and simulated bus boarding based on each bus's departure time, using an index to track the next available crew member.
+		- Determined the latest possible arrival time based on the last bus's remaining capacity. 
+		- If the last bus was full, arrived one minute before the last crew member.
+
+### 28. 인사고과 (performance_review)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Sorted scores by attitude score and peer score in descending order.
+		- Used the maximum peer score from previous groups to determine whether a person was eliminated.
+		- Handled people with the same attitude score separately using the previous group's maximum peer score.
+		- Calculated the rank by sorting the remaining candidates' total scores in descending order.
+	- 2nd solution:
+		- Sorted attitude scores in descending order and peer scores in ascending order.
+		- Used a running maximum peer score to eliminate dominated candidates.
+	
+### 29. 순위 (ranking)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Separated the graph into two directions: win and lose.
+		- Used `BFS` to find all reachable nodes from each node.
+		- Counted a player's rank as determinable if the number of reachable players (including themselves) was `n`.
+	- 2nd solution:
+		- Used the `Floyd-Warshall algorithm` to find all possible win paths.
+		- Counted a player's rank as determinable if they had a known result against all other players.
+
+### 30. 합승 택시 요금 (shared_taxi_fare)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Used the `Floyd-Warshall algorithm` to calculate all-pairs shortest paths.
+		- Considered every node as a potential splitting point and found the minimum total fare.
+	- 2nd solution:
+		- Ran `Dijkstra's algorithm` three times from the starting point and each passenger's destination.
 
 ---
