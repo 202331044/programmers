@@ -1,7 +1,7 @@
 # Level 3 Problems
 
 ## Summary
-- Total Solved: 5
+- Total Solved: 10
 
 ---
 
@@ -70,5 +70,65 @@
 		- Used `bitmask` to represent the visited nodes.
 		- Used a visited_state array to avoid exploring duplicate visited states.
 		- Stored parent information to check whether a node could be visited.
+
+### 36. 미로 탈출 명령어 (maze_escape_command)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+        - Used `DFS` to generate routes in lexicographical order (d, l, r, u).
+        - Pruned paths using Manhattan distance to avoid exploring impossible routes.
+    - 2nd solution:
+		- Used `greedy method` to construct the lexicographically smallest path.
+		- Selected the first direction that stays within bounds and allows reaching the destination within the remaining moves.
+		- Ensured that the difference between the remaining moves and the Manhattan distance is an even number.
+
+### 37. 길 찾기 게임 (ind_the_path_game)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Used a 2D vector to represent the `binary tree`, storing left and right child indices.
+		- Sorted nodes in descending order of y-coordinate to insert parent nodes before their children.
+		- Determined left and right children based on x-coordinate.
+		- Implemented preorder and postorder traversals.
+	- 2nd solution:
+		- Implemented a `Tree` class with a `Node` structure containing pointers to left and right children.
+
+### 38. 광고 삽입 (advertisement_insertion)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution: 
+		- Converted string time to integer.
+		- Used a `difference array` to count viewers at each second.
+		- Generated a `prefix-sum array` to calculate cumulative viewing time.
+	- 2nd solution:
+		- Generated an additional prefix-sum array to calculate cumulative viewing time.
+		- Calculated advertisement intervals by subtracting prefix sums.
+
+### 39. 보행자 천국(pedestrian_paradise)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes: 
+	- Used a 3D vector array to maintain the number of paths reaching each cell based on the movement direction.
+	- Applied `Dynamic Programming (DP)` with separate states for paths arriving from above and from the left.
+	- Restricted movement direction when passing through cells with a straight-only traffic condition (city_map[r][c] == 2).
+
+### 40. 기둥과 보 설치 (column_and_beam_installation)
+
+- Time: N/A
+- Solved by Myself: Yes
+- Notes:
+	- 1st solution:
+		- Represented the construction state using a 3D vector array.
+		- Implemented `insert_construction` to validate both insertion and deletion operations.
+		- Collected all installed structures and sorted them according to the required output order.
+	- 2nd solution:
+		- Eliminated the sorting step by adjusting the traversal order when collecting the installed structures.
 
 ---
